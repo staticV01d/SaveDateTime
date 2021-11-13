@@ -10,35 +10,6 @@ namespace SaveDateTime
   {
     static void Main(string[] args)
     {
-
-      // >>> STRING MANIPULATION <<< //
-      //var s = "Hello";             // declare and set initial string
-      //Console.WriteLine(s);        // display string
-      //s = s.Replace(s[2], 'b');    // replace the 4th element and set to new string with letter replaced
-      //Console.WriteLine(s);        // display edited string
-      //s += ' ';                    // append a space at the end of string 's'
-      //s += "World";                // append string "String" to the end of string 's'
-      //Console.WriteLine(s);        // disply new string
-      //s = s.Remove(s.Length - 6);  // remove 9 chars from end of string  ~ note: (must know if Length > 6)
-      //Console.WriteLine(s);        // display new string
-      //s = s.Replace(s[2], 'l');    // replace 4th char in 's' with char 'i'
-      //Console.WriteLine(s);        // display new string
-
-      //var charEnum = s.GetEnumerator();
-
-      //for (int i = 0; i < s.Length; i++)
-      //{
-      //  if (charEnum.MoveNext())
-      //  {
-      //    var lastCharIndex = s.Length - 1;
-      //    if (charEnum.Current == s[lastCharIndex])
-      //      Console.WriteLine("last character in string 's' is: " + charEnum.Current);
-      //    else { continue; }
-      //  }
-      //}
-      // END STRING MANIPULATION //
-
-
        bool firstChoice = false;
        Console.WriteLine("Would you like to save the current time and date (Y / N) ?");
        while (!firstChoice)
